@@ -1,0 +1,48 @@
+body{
+    background-color: #edebeb;
+}
+
+h1{
+    background-color: navy;
+    color: white;
+    text-shadow:1px 0 10px rgb(52, 228, 240);
+}
+
+h2{
+    margin: 5px;
+    color: #3f3faf;
+    background: linear-gradient( to right, white, #ffefaf);
+}
+
+h3{
+    background: linear-gradient( to right, #edebeb, white);
+}
+
+a:link{
+    color: navy;
+    text-decoration: none;
+}
+
+a:visited{
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+div#zentai{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 1024px;
+    height: 200px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+div#zentai > div {
+	padding: 5px;
+	background-color: #ffffff;
+}

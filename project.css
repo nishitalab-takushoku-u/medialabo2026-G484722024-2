@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(255, 225, 182);
+}
+
+h1{
+    font-family:"Hiragino Maru Gothic Pro", sans-serif;
+    color: white;
+    text-shadow:3px 3px 3px orange;
+    border-bottom: 5px dotted orange;
+}
+
+h2{
+    font-family:"Hiragino Maru Gothic Pro", sans-serif;
+    color: gray;
+}
+
+h3{
+    border: 5px groove black;
+    background-color: #edebeb;
+    width: 90px;
+    padding: 5px;
+}
+
+h4{
+    font-family:"Hiragino Maru Gothic Pro", sans-serif;
+    color: #3f3faf;
+    background: linear-gradient( to right, white, #ffefaf);
+    display: inline-block;
+    padding: 5px;   
+}
+
+div#zentai{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1024px;
+    height: 200px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+div#zentai > div {
+	padding: 5px;
+	background-color: #ffffff;
+}
