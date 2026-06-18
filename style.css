@@ -35,8 +35,8 @@ a:hover{
 
 div#zentai{
     display: grid;
-    grid-template-columns: 1fr;
-    width: 1024px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 2540px;
     height: 200px;
     column-gap: 10px;
     row-gap: 10px;
