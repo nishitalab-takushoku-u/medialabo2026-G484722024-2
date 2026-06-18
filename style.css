@@ -6,11 +6,13 @@ h1{
     background-color: navy;
     color: white;
     text-shadow:1px 0 10px rgb(52, 228, 240);
+    border-bottom: 10px groove white;
 }
 
 h2{
-    margin: 5px;
+    margin: 10px;
     color: #3f3faf;
+    border-bottom: 5px dotted;
     background: linear-gradient( to right, white, #ffefaf);
 }
 
