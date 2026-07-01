@@ -17,6 +17,17 @@ function print(data) {
   }
 } 
 
+//宿題4-1
+function keyword(){
+  let s = document.querySelector('input[name=word]');
+  console.log("検索キーワード：" + s.value);
+  let ans = document.querySelector('span#result');
+  ans.textContent = "2件がヒットしました！";
+}
+
+b = document.querySelector('button#btn');
+b.addEventListener('click', keyword);
+
 // 課題5-1 の関数 printDom() はここに記述すること
 function printDom(data) {
 
